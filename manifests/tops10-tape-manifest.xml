@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- http://pdp-10.trailing-edge.com/ -->
+<!-- http://www.textfiles.com/bitsavers/bits/DEC/pdp10/magtape/dec_distribs/labels.txt -->
+
+<tapes>
+
+    <!-- TOPS-10 7.04 Monitor Installation -->
+
+    <tape>
+        <label>BB-X138C-BB</label>
+        <name>TOPS-10 7.04 KS Bootable tape</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>ks_bootable.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10_ks_bootable_bb-x138c-bb_704.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10_ks_bootable_bb-x138c-bb_704.tap.bz2</url>
+            <url>http://www.bitsavers.org/bits/DEC/pdp10/magtape/dec_distribs/TOPS-10/BB-X138C-BB_1988.tap.gz</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-X140C-SB</label>
+        <name>TOPS-10 7.04 Montor ANF</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>monitor_anf.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10_704_monitoranf_bb-x140c-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10_704_monitoranf_bb-x140c-sb.tap.bz2</url>
+            <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/tops10_704_monitoranf_bb-x140c-sb.tap</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-X133C-SB</label>
+        <name>TOPS-10 7.04 MPE</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>mpe.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10v704_mpe.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10v704_mpe.tap.bz2</url>
+            <url>http://www.bitsavers.org/bits/DEC/pdp10/magtape/dec_distribs/TOPS-10/BB-X133C-SB_1988.tap.gz</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>TOPS-10 7.04 SPI Monitor</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>spi_monitor.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops-10_7_04_spi_monitor.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops-10_7_04_spi_monitor.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-X128C-SB</label>
+        <name>TOPS-10 CUSP BIN and SRC, tape 1 of 2</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>cusp_1of2.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/cuspbinsrc_1of2_bb-x128c-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/cuspbinsrc_1of2_bb-x128c-sb.tap.bz2</url>
+            <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/cuspbinsrc_1of2_bb-x128c-sb.tap</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-FP63B-SB</label>
+        <name>TOPS-10 CUSP BIN and SRC, tape 2 of 2</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>cusp_2of2.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/cuspbinsrc_2of2_bb-fp63b-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/cuspbinsrc_2of2_bb-fp63b-sb.tap.bz2</url>
+            <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/cuspbinsrc_2of2_bb-fp63b-sb.tap</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-X130C-SB</label>
+        <name>TOPS-10 Customer Supported CUSPs</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>customer_cusps.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/cust_sup_cusp_bb-x130c-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/cust_sup_cusp_bb-x130c-sb.tap.bz2</url>
+            <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/cust_sup_cusp_bb-x130c-sb.tap</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-FP64B-SB</label>
+        <name>TOPS-10 Tools</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>tools.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10_tools_bb-fp64b-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10_tools_bb-fp64b-sb.tap.bz2</url>
+            <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/tools/tops10_tools_bb-fp64b-sb.tap</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>TOPS-10 V7.04 Auxilluary Tape for TOPS-10 V7.04 Load 361</name>
+        <purpose>TOPS-10 7.04 Monitor Installation</purpose>
+        <filename>auxilluary.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10v704_auxft.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10v704_auxft.tap.bz2</url>
+        </urls>
+    </tape>
+
+    <!-- TOPS-10 Layered Products -->
+
+    <tape>
+        <label>AP-5069B-SB</label>
+        <name>ALGOL-10 Version 10 1977</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>algol_10.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/ap-5069b-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/ap-5069b-sb.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>AP-5069C-SB</label>
+        <name>ALGOL-10 Version 10A 1978</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>algol_10a.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/ap-5069c-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/ap-5069c-sb.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>APLSF V2 (435) September 1979</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>aplsf_v2.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/aplsfv2.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/aplsfv2.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-M178A-SB</label>
+        <name>BASIC-10 V17F 18-May-1981</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>basic-10_v17f.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/basic17f.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/basic17f.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-J941F-BB</label>
+        <name>BLISS-36 V4.2 (236) 16-Oct-1989</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>bliss-36_v42.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/bls36v42.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/bls36v42.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>AP-C800D-SB</label>
+        <name>DEC 10 COBOL 68 V12A APR 16 1980</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>cobol-68_v12a.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/ap-c800d-sb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/ap-c800d-sb.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>COBOL-74 V12C</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>cobol-74_v12c.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/cobol12c.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/cobol12c.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>DBMS V5A</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>dbms_v5a.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/dbmsv5a.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/dbmsv5a.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>IQL3A V30 21-Feb-1980</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>iql3a_v30.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/iqlv30.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/iqlv30.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>Fortran-10 Version 11 Field-Test Tape 3 January 1987</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>fortran-10_v11.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/fortv11.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/fortv11.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>Message System V11CK 23-Jun-1986</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>message-system_v11ck.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/msv11ck.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/msv11ck.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>RMS-10 1A April 1988</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>rms-10_1a.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/704rmsf2.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/704rmsf2.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>no label</label>
+        <name>TOPS-10 SORT V4D 18-Aug-1989</name>
+        <purpose>TOPS-10 Layered Products</purpose>
+        <filename>sort_v4d.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/sortv4d.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/sortv4d.tap.bz2</url>
+        </urls>
+    </tape>
+
+    <!-- TOPS-10 Software Update -->
+
+    <tape>
+        <label>BB-BT99S-BB</label>
+        <name>TOPS-10 704 TSU01 TP 1 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu01_1of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/bb-bt99s-bb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/bb-bt99s-bb.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-JR93K-BB</label>
+        <name>TOPS-10 704 TSU01 TP 2 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu01_2of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/bb-jr93k-bb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/bb-jr93k-bb.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-PBDEA-BB</label>
+        <name>TOPS-10 704 TSU01 TP 3 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu01_3of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/bb-pbdea-bb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/bb-pbdea-bb.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-BT99T-BB_1990</label>
+        <name>TOPS-10 704 TSU02 TP 1 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu02_1of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-BT99T-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-BT99T-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-JR93L-BB_1990</label>
+        <name>TOPS-10 704 TSU02 TP 2 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu02_2of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-JR93L-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-JR93L-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-PBDEB-BB_1990</label>
+        <name>TOPS-10 704 TSU02 TP 3 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu02_3of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-PBDEB-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-PBDEB-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-BT99U-BB_1990</label>
+        <name>TOPS-10 704 TSU03 TP 1 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu03_1of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-BT99U-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-BT99U-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+
+    <!-- TOPS-10 704 TSU03 TP 2 OF 3 1990 is not available -->
+    <!-- http://www.computerhistory.org/collections/catalog/102773729 -->
+    <!--
+    <tape>
+        <label>BB-JR93M-BB</label>
+        <name>TOPS-10 704 TSU03 TP 2 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu03_2of3.tape</filename>
+        <urls>
+            <url preferred="true"></url>
+            <url></url>
+        </urls>
+    </tape>
+    -->
+
+    <tape>
+        <label>BB-PBDEC-BB_1990</label>
+        <name>TOPS-10 704 TSU03 TP 3 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu03_3of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-PBDEC-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-PBDEC-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-BT99V-BB_1990</label>
+        <name>TOPS-10 704 TSU04 TP 1 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu04_1of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-BT99V-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-BT99V-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-JR93N-BB_1990</label>
+        <name>TOPS-10 704 TSU04 TP 2 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu04_2of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-JR93N-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-JR93N-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-PBDED-BB_1990</label>
+        <name>TOPS-10 704 TSU04 TP 3 OF 3 1990</name>
+        <purpose>TOPS-10 Software Update</purpose>
+        <filename>tsu04_3of3.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BB-PBDED-BB_1990.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/BB-PBDED-BB_1990.tap.bz2</url>
+        </urls>
+    </tape>
+
+    <!-- TOPS-10 Documentation Update -->
+
+    <tape>
+        <label>BB-PCV2A-BB</label>
+        <name>Documentation Update Files for TOPS-10 V7.04 DOCA 16-May-1990</name>
+        <purpose>TOPS-10 Documentation Update</purpose>
+        <filename>doca.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10v704_doca.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10v704_doca.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-PCV2B-BB</label>
+        <name>Documentation Update Files for TOPS-10 V7.04 DOCB 2-Aug-1990</name>
+        <purpose>TOPS-10 Documentation Update</purpose>
+        <filename>docb.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10v704_docb.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10v704_docb.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>BB-PCV2C-BB</label>
+        <name>Documentation Update Files for TOPS-10 V7.04 DOCC 30-Nov-1990</name>
+        <purpose>TOPS-10 Documentation Update</purpose>
+        <filename>docc.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/tops10v704_docc.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/tops10v704_docc.tap.bz2</url>
+        </urls>
+    </tape>
+
+
+    <!-- DECUS-10 library tapes -->
+
+    <tape>
+        <label>decuslib10-01</label>
+        <name>DECUS 10-LIB-1 Contains 10-3 through 10-138 except 10-101</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-01.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-01.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-01.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-02</label>
+        <name>DECUS 10-LIB-2 Contains 10-101 and 10-139 through 10-197 except 10-176 and 10-184</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-02.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-02.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-02.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-03</label>
+        <name>DECUS 10-LIB-3 Contains 10-176, 10-184, and 10-198 through 10-209</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-03.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-03.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-03.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-04</label>
+        <name>DECUS 10-LIB-4 Contains 10-210 through 10-241, except 10-223</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-04.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-04.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-04.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-05</label>
+        <name>DECUS 10-LIB-5 Contains 10-223</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-05.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-05.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-05.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-06</label>
+        <name>DECUS 10-LIB-6 Contains 10-242 through 10-290, except 10-283</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-06.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-06.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-06.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-07</label>
+        <name>DECUS 10-LIB-7 Contains 10-283 plus 10-291 through 10-309 except 10-307</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-07.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-07.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-07.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-08</label>
+        <name>DECUS 10-LIB-8 Contains 10-307 plus 10-311 through 10-333 except 10-310</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-08.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-08.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-08.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-09</label>
+        <name>DECUS 10-LIB-9 Contains 10-310</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-09.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-09.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-09.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-10</label>
+        <name>DECUS 10-LIB-10 Contains 10-334 through 10-340</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-10.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-10.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-10.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-11</label>
+        <name>DECUS 10-LIB-11 Contains 10-341 through 10-349</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-11.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-11.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-11.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-12</label>
+        <name>DECUS 10-LIB-12 Contains 10-358 through 10-364</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-12.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-12.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-12.tap.bz2</url>
+        </urls>
+    </tape>
+    <tape>
+        <label>decuslib10-13</label>
+        <name>10-LIB-13 Contains a revised 10-130, PSWCHK, CRYPT, PODTYP, MONRPT/RESP, and FPAINT</name>
+        <purpose>DECUS-10 Library</purpose>
+        <filename>decuslib10-13.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/decuslib10-13.tap</url>
+            <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-13.tap.bz2</url>
+        </urls>
+    </tape>
+
+    <!-- TOPS-10 Networking -->
+
+    <tape>
+        <label>no label</label>
+        <name>DECsystem-10 Kermit 3(136) April 2006</name>
+        <purpose>TOPS-10 Networking</purpose>
+        <filename>kermit-10.tape</filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/k10mit-136.tap</url>
+            <url>ftp://kermit.columbia.edu/kermit/archives/k10mit-136.tap.gz</url>
+            <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/third-party/k10mit-136.tap</url>
+        </urls>
+    </tape>
+    <!-- DECNET-10, ANF, TCP/IP stack? -->
+
+
+    <!-- TOPS-10 Additional Items -->
+
+    <tape>
+        <label>no label</label>
+        <name>Essex BCPL</name>
+        <purpose>TOPS-10 Additional Items</purpose>
+        <filename></filename>
+        <urls>
+            <url preferred="true">http://localhost/tapes/BCPL.tap</url>
+            <url>https://github.com/PDP-10/essex-bcpl/raw/tape/BCPL.tap</url>
+        </urls>
+    </tape>
+
+<!--
+    <tape>
+        <label></label>
+        <name></name>
+        <purpose>TOPS-10 Additional Items</purpose>
+        <filename></filename>
+        <urls>
+            <url preferred="true"></url>
+            <url></url>
+        </urls>
+    </tape>
+
+            https://github.com/PDP-10/decwar
+            ftp://ftp.avanthar.com/pub/pdp10/tops-10/
+
+            adventure_TOPS10.tap
+            chess2.tap
+            dcn.tap
+            dist.tap
+            fun_games_2-8-83.tap
+            games_6-29-88.tap
+            games_interchange.tap
+            stacken-tape-backup.tap
+            tops-10_games.tap
+            walsh_good_stuff.tap
+
+    <tape>
+        <label></label>
+        <name></name>
+        <purpose></purpose>
+        <filename></filename>
+        <urls>
+            <url preferred="true"></url>
+            <url></url>
+        </urls>
+    </tape>
+-->
+
+</tapes>
+
