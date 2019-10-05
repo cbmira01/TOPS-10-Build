@@ -9,7 +9,7 @@
   <xs:element name="tapes">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="tape" maxOccurs="unbounded">
+        <xs:element name="tape" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="label"/>
