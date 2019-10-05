@@ -12,7 +12,7 @@
 - All DEC layered products installed and demo'd
 - All DECUS-10 Library tapes installed, some demo'd
 - Kermit-10
-- Essex BCPL, full instalation with demos
+- Essex BCPL, full installation with demos
 - Games and other interesting tapes
 
 ## To build this project:

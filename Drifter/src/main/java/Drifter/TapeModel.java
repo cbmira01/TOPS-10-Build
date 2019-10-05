@@ -12,6 +12,7 @@ public class TapeModel {
     // TODO: tape properties
     
     // tape name, string
+    // tape notes
     // tape label, string
     // purpose, string
     // unpacked local filename, string
