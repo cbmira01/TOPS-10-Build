@@ -1,0 +1,1881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Some of this information was gathered from the 
+        DECUS Program Library DECsystem-10/20 Catalog of April 1978:
+        https://ia801902.us.archive.org/4/items/bitsavers_decdecuspratalogPDP10Apr78_4405080/DECUS_Catalog_PDP-10_Apr78.pdf
+
+    Other details were discovered by inspection.
+-->
+
+<decusProjects
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="decus10-manifest.xsd">
+  <decusProject>
+    <decusNumber>10-3</decusNumber>
+    <projectProgrammerNumber>[43,50003]</projectProgrammerNumber>
+    <projectName>DTLOTS: Lots of Copies of a DECtape</projectName>
+    <description>DECtape manipulation</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-8</decusNumber>
+    <projectProgrammerNumber>[43,50010]</projectProgrammerNumber>
+    <projectName>DECtape DDT</projectName>
+    <description>DECtape manipulation</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-9</decusNumber>
+    <projectProgrammerNumber>[43,50011]</projectProgrammerNumber>
+    <projectName>Music System for the PDP-10</projectName>
+    <description>music player and music files</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-10</decusNumber>
+    <projectProgrammerNumber>[43,50012]</projectProgrammerNumber>
+    <projectName>EIGHT and EDIT8</projectName>
+    <description>PDP-8 DECtape conversion</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-12</decusNumber>
+    <projectProgrammerNumber>[43,50014]</projectProgrammerNumber>
+    <projectName>PAL10</projectName>
+    <description>cross-assembler for PDP-8</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-22</decusNumber>
+    <projectProgrammerNumber>[43,50026]</projectProgrammerNumber>
+    <projectName>JACOBI</projectName>
+    <description>matrix diagonalization, in Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-23</decusNumber>
+    <projectProgrammerNumber>[43,50027]</projectProgrammerNumber>
+    <projectName>SPEEDY</projectName>
+    <description>source possibly mangled ?</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-25</decusNumber>
+    <projectProgrammerNumber>[43,50031]</projectProgrammerNumber>
+    <projectName>ONCE</projectName>
+    <description>FORTRAN subroutine debugger </description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-27</decusNumber>
+    <projectProgrammerNumber>[43,50033]</projectProgrammerNumber>
+    <projectName>GASP II</projectName>
+    <description>FORTRAN subroutine for discrete simulation studies</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-28</decusNumber>
+    <projectProgrammerNumber>[43,50034]</projectProgrammerNumber>
+    <projectName>SIM-11</projectName>
+    <description>PDP-11 simulator program</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-29</decusNumber>
+    <projectProgrammerNumber>[43,50035]</projectProgrammerNumber>
+    <projectName>MUNICH</projectName>
+    <description>Munich real-time data acquisition system</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-30</decusNumber>
+    <projectProgrammerNumber>[43,50036]</projectProgrammerNumber>
+    <projectName>NVERTX</projectName>
+    <description>FORTRAN subroutines for high-energy physics</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-31</decusNumber>
+    <projectProgrammerNumber>[43,50037]</projectProgrammerNumber>
+    <projectName>PALX11</projectName>
+    <description>cross-assembler for PDP-8?</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-33</decusNumber>
+    <projectProgrammerNumber>[43,50041]</projectProgrammerNumber>
+    <projectName>W</projectName>
+    <description>error function for complex argument, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-36</decusNumber>
+    <projectProgrammerNumber>[43,50044]</projectProgrammerNumber>
+    <projectName>ARP</projectName>
+    <description>utility routines for character, byte, and logic operations</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-37</decusNumber>
+    <projectProgrammerNumber>[43,50045]</projectProgrammerNumber>
+    <projectName>Trace Program</projectName>
+    <description>batch-oriented debugging</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-38</decusNumber>
+    <projectProgrammerNumber>[43,50046]</projectProgrammerNumber>
+    <projectName>CHARTR</projectName>
+    <description>produces FORTRAN flow charts</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-43</decusNumber>
+    <projectProgrammerNumber>[43,50053]</projectProgrammerNumber>
+    <projectName>Random Number Package</projectName>
+    <description>various numerical routines, in Macro-10 </description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-57</decusNumber>
+    <projectProgrammerNumber>[43,50071]</projectProgrammerNumber>
+    <projectName>SIMPLE</projectName>
+    <description>simulation routine, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-59</decusNumber>
+    <projectProgrammerNumber>[43,50073]</projectProgrammerNumber>
+    <projectName>LISP 1.6</projectName>
+    <description>programming language</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-61</decusNumber>
+    <projectProgrammerNumber>[43,50075]</projectProgrammerNumber>
+    <projectName>MLISP</projectName>
+    <description>programming language; compiler</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-65</decusNumber>
+    <projectProgrammerNumber>[43,50101]</projectProgrammerNumber>
+    <projectName>LEARNS</projectName>
+    <description>subroutines that are used often</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-68</decusNumber>
+    <projectProgrammerNumber>[43,50104]</projectProgrammerNumber>
+    <projectName>PAL12</projectName>
+    <description>cross-assembler for PDP-8</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-70</decusNumber>
+    <projectProgrammerNumber>[43,50106]</projectProgrammerNumber>
+    <projectName>FAKE</projectName>
+    <description>fake dynamic array assignments for FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-72</decusNumber>
+    <projectProgrammerNumber>[43,50110]</projectProgrammerNumber>
+    <projectName>Dartmouth BASIC Library</projectName>
+    <description>game, numerical, and financial programs, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>none</decusNumber>
+    <projectProgrammerNumber>[43,50126]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>possibly an incomplete dump of someone's SYS area ?</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-87</decusNumber>
+    <projectProgrammerNumber>[43,50127]</projectProgrammerNumber>
+    <projectName>MATRIX</projectName>
+    <description>matrix interpretive program</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-88</decusNumber>
+    <projectProgrammerNumber>[43,50130]</projectProgrammerNumber>
+    <projectName>SALESM</projectName>
+    <description>sales commission calculator, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-89</decusNumber>
+    <projectProgrammerNumber>[43,50131]</projectProgrammerNumber>
+    <projectName>JOTTO</projectName>
+    <description>game, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-90</decusNumber>
+    <projectProgrammerNumber>[43,50132]</projectProgrammerNumber>
+    <projectName>BARTEE</projectName>
+    <description>minimization of logic networks, in Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-93
+        </decusNumber>
+    <projectProgrammerNumber>[43,50135]</projectProgrammerNumber>
+    <projectName>BCDPIP</projectName>
+    <description>translates IBM 7040 mag tapes to ASCII format</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-97</decusNumber>
+    <projectProgrammerNumber>[43,50141]</projectProgrammerNumber>
+    <projectName>TUTR</projectName>
+    <description>timesharing tutorial programs, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-98</decusNumber>
+    <projectProgrammerNumber>[43,50142]</projectProgrammerNumber>
+    <projectName>PUNCH</projectName>
+    <description>paper tape punch label program</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-100</decusNumber>
+    <projectProgrammerNumber>[43,50144]</projectProgrammerNumber>
+    <projectName>On-Line Systems BASIC and FORTRAN Package</projectName>
+    <description>various numerical and financial programs, in BASIC and FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-101</decusNumber>
+    <projectProgrammerNumber>[43,50145]</projectProgrammerNumber>
+    <projectName>SSP</projectName>
+    <description>large library of numerical routines, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-102</decusNumber>
+    <projectProgrammerNumber>[43,50146]</projectProgrammerNumber>
+    <projectName>PDP-8 simulator</projectName>
+    <description>PDP-8 simulator on the PDP-10</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-103</decusNumber>
+    <projectProgrammerNumber>[43,50147]</projectProgrammerNumber>
+    <projectName>RESDEC</projectName>
+    <description>DECtape reconstructor</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-104</decusNumber>
+    <projectProgrammerNumber>[43,50150]</projectProgrammerNumber>
+    <projectName>SNOBOL4</projectName>
+    <description>programming language; interpreter</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-105</decusNumber>
+    <projectProgrammerNumber>[43,50151]</projectProgrammerNumber>
+    <projectName>DOCTOR / ELIZA</projectName>
+    <description>games, in LISP</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-107</decusNumber>
+    <projectProgrammerNumber>[43,50153]</projectProgrammerNumber>
+    <projectName>CFILE</projectName>
+    <description>initiates jobs from command files</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-110</decusNumber>
+    <projectProgrammerNumber>[43,50156]</projectProgrammerNumber>
+    <projectName>CHESS</projectName>
+    <description>Greenblatt's chess program</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-112</decusNumber>
+    <projectProgrammerNumber>[43,50160]</projectProgrammerNumber>
+    <projectName>GOOF</projectName>
+    <description>DECtape recovery</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-113</decusNumber>
+    <projectProgrammerNumber>[43,50161]</projectProgrammerNumber>
+    <projectName>MULPAC: A Multiple Precision Package for the PDP-10 </projectName>
+    <description>multiple-precision routines for Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-114</decusNumber>
+    <projectProgrammerNumber>[43,50162]</projectProgrammerNumber>
+    <projectName>MATTAC</projectName>
+    <description>game, in Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-115</decusNumber>
+    <projectProgrammerNumber>[43,50163]</projectProgrammerNumber>
+    <projectName>TAPBLK</projectName>
+    <description>block files to standard record size</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-116</decusNumber>
+    <projectProgrammerNumber>[43,50164]</projectProgrammerNumber>
+    <projectName>QED</projectName>
+    <description>text editor</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-117</decusNumber>
+    <projectProgrammerNumber>[43,50165]</projectProgrammerNumber>
+    <projectName>IFTYP</projectName>
+    <description>?</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-120</decusNumber>
+    <projectProgrammerNumber>[43,50170]</projectProgrammerNumber>
+    <projectName>DYNAM</projectName>
+    <description>free storage management</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-121</decusNumber>
+    <projectProgrammerNumber>[43,50171]</projectProgrammerNumber>
+    <projectName>CUSPER</projectName>
+    <description>loads and executes system utility programs </description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-126</decusNumber>
+    <projectProgrammerNumber>[43,50176]</projectProgrammerNumber>
+    <projectName>TAPTST</projectName>
+    <description>magtape reliability checker</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-127</decusNumber>
+    <projectProgrammerNumber>[43,50177]</projectProgrammerNumber>
+    <projectName>PCPY</projectName>
+    <description>copies RP02 disk packs</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-130</decusNumber>
+    <projectProgrammerNumber>[43,50202]</projectProgrammerNumber>
+    <projectName>RENBR</projectName>
+    <description>FORTRAN renumbering and listing program</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-133</decusNumber>
+    <projectProgrammerNumber>[43,50205]</projectProgrammerNumber>
+    <projectName>ALGOLW</projectName>
+    <description>some files possibly missing ?</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-134</decusNumber>
+    <projectProgrammerNumber>[43,50206]</projectProgrammerNumber>
+    <projectName>FISHER</projectName>
+    <description>Fisher randomization, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-135</decusNumber>
+    <projectProgrammerNumber>[43,50207]</projectProgrammerNumber>
+    <projectName>ALOCSP</projectName>
+    <description>allocates disk blocks?</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-136</decusNumber>
+    <projectProgrammerNumber>[43,50210]</projectProgrammerNumber>
+    <projectName>PDP-10 Demonstration Package </projectName>
+    <description>games and diversions, in BASIC and FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-137</decusNumber>
+    <projectProgrammerNumber>[43,50211]</projectProgrammerNumber>
+    <projectName>COB311</projectName>
+    <description>converts B300 COBOL into PDP-10 COBOL, in COBOL</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-138</decusNumber>
+    <projectProgrammerNumber>[43,50212]</projectProgrammerNumber>
+    <projectName>FFM</projectName>
+    <description>FORTRAN file maintenance package</description>
+    <decusTapeName>DECUS 10-LIB-1</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-139</decusNumber>
+    <projectProgrammerNumber>[43,50213]</projectProgrammerNumber>
+    <projectName>TALK8F</projectName>
+    <description>various utilities in support of PDP-8 cross-assembly</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-140</decusNumber>
+    <projectProgrammerNumber>[43,50214]</projectProgrammerNumber>
+    <projectName>DSKDTA</projectName>
+    <description>copies files from disk to DECtape</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-141</decusNumber>
+    <projectProgrammerNumber>[43,50215]</projectProgrammerNumber>
+    <projectName>EXCON</projectName>
+    <description>DECtape compaction/expansion</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-142</decusNumber>
+    <projectProgrammerNumber>[43,50216]</projectProgrammerNumber>
+    <projectName>LISP</projectName>
+    <description>programming language</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-143</decusNumber>
+    <projectProgrammerNumber>[43,50217]</projectProgrammerNumber>
+    <projectName>COBSTD</projectName>
+    <description>COBOL source-file cleanup, in Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-145</decusNumber>
+    <projectProgrammerNumber>[43,50221]</projectProgrammerNumber>
+    <projectName>RUNH</projectName>
+    <description>FORTRAN subroutine to transfer from one program to another</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-148</decusNumber>
+    <projectProgrammerNumber>[43,50224]</projectProgrammerNumber>
+    <projectName>DLSINT</projectName>
+    <description>possibly data line scanner device driver</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-149</decusNumber>
+    <projectProgrammerNumber>[43,50225]</projectProgrammerNumber>
+    <projectName>EDITOR</projectName>
+    <description>DECtape editor</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-151</decusNumber>
+    <projectProgrammerNumber>[43,50227]</projectProgrammerNumber>
+    <projectName>KWIC</projectName>
+    <description>keyword indexing package (see also archive 310)</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-152</decusNumber>
+    <projectProgrammerNumber>[43,50230]</projectProgrammerNumber>
+    <projectName>RIPOFF</projectName>
+    <description>disk maintenance utilities</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-153</decusNumber>
+    <projectProgrammerNumber>[43,50231]</projectProgrammerNumber>
+    <projectName>CHANGE</projectName>
+    <description>converts foreign character sets</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-154</decusNumber>
+    <projectProgrammerNumber>[43,50232]</projectProgrammerNumber>
+    <projectName>Subroutines for COBOL</projectName>
+    <description>routines for job queue manipulation, in COBOL</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-155</decusNumber>
+    <projectProgrammerNumber>[43,50233]</projectProgrammerNumber>
+    <projectName>USET</projectName>
+    <description>low-level disk manipulator</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-156</decusNumber>
+    <projectProgrammerNumber>[43,50234]</projectProgrammerNumber>
+    <projectName>PAL10</projectName>
+    <description>cross-assembler for PDP-8</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-157</decusNumber>
+    <projectProgrammerNumber>[43,50235]</projectProgrammerNumber>
+    <projectName>STREAM</projectName>
+    <description>stream i/o for FORTRAN and Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-159</decusNumber>
+    <projectProgrammerNumber>[43,50237]</projectProgrammerNumber>
+    <projectName>PAGER</projectName>
+    <description>program listing utility</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-160</decusNumber>
+    <projectProgrammerNumber>[43,50240]</projectProgrammerNumber>
+    <projectName>TERBIN</projectName>
+    <description>save/restore binary files on magtape</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-161</decusNumber>
+    <projectProgrammerNumber>[43,50241]</projectProgrammerNumber>
+    <projectName>ABACUS</projectName>
+    <description>calculator for mathematical expressions</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-162</decusNumber>
+    <projectProgrammerNumber>[43,50242]</projectProgrammerNumber>
+    <projectName>POOMAS</projectName>
+    <description>discrete event simulation package, in Bliss</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-164</decusNumber>
+    <projectProgrammerNumber>[43,50244]</projectProgrammerNumber>
+    <projectName>CROSS </projectName>
+    <description>survey analysis package, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-165</decusNumber>
+    <projectProgrammerNumber>[43,50245]</projectProgrammerNumber>
+    <projectName>RDMT11</projectName>
+    <description>PDP-11 magtape utility</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-166</decusNumber>
+    <projectProgrammerNumber>[43,50246]</projectProgrammerNumber>
+    <projectName>BLOCK</projectName>
+    <description>ASCII to BCD or EBCDIC conversion utility</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-167</decusNumber>
+    <projectProgrammerNumber>[43,50247]</projectProgrammerNumber>
+    <projectName>GENPLT II</projectName>
+    <description>general plotting package</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-168</decusNumber>
+    <projectProgrammerNumber>[43,50250]</projectProgrammerNumber>
+    <projectName>TBLTRN</projectName>
+    <description>symbolic table assembler, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-169</decusNumber>
+    <projectProgrammerNumber>[43,50251]</projectProgrammerNumber>
+    <projectName>CTFFT</projectName>
+    <description>fast Fourier transforms, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-170</decusNumber>
+    <projectProgrammerNumber>[43,50252]</projectProgrammerNumber>
+    <projectName>UFLIP</projectName>
+    <description>user file-library manager</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-171</decusNumber>
+    <projectProgrammerNumber>[43,50253]</projectProgrammerNumber>
+    <projectName>CMLS</projectName>
+    <description>simulation of cardiac machine language</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-173</decusNumber>
+    <projectProgrammerNumber>[43,50255]</projectProgrammerNumber>
+    <projectName>FLMON</projectName>
+    <description>program for piping plot diagram routines</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-175</decusNumber>
+    <projectProgrammerNumber>[43,50257]</projectProgrammerNumber>
+    <projectName>CHAINR</projectName>
+    <description>diagnostic chainer</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-176</decusNumber>
+    <projectProgrammerNumber>possibly [43,50260]?</projectProgrammerNumber>
+    <projectName>ACCTG: Resource Accounting System </projectName>
+    <description>possibly missing project</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-177</decusNumber>
+    <projectProgrammerNumber>[43,50261]</projectProgrammerNumber>
+    <projectName>SIGN</projectName>
+    <description>sign maker, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-178</decusNumber>
+    <projectProgrammerNumber>[43,50262]</projectProgrammerNumber>
+    <projectName>MTIO</projectName>
+    <description>reads numerical data from IBM 360 magtape</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-179</decusNumber>
+    <projectProgrammerNumber>[43,50263]</projectProgrammerNumber>
+    <projectName>FASBOL II </projectName>
+    <description>programming language; compiler</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-181</decusNumber>
+    <projectProgrammerNumber>[43,50265]</projectProgrammerNumber>
+    <projectName>STOPGAP</projectName>
+    <description>text editor</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-182</decusNumber>
+    <projectProgrammerNumber>[43,50266]</projectProgrammerNumber>
+    <projectName>TXTPAD</projectName>
+    <description>constructs illustrations </description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-183</decusNumber>
+    <projectProgrammerNumber>[43,50267]</projectProgrammerNumber>
+    <projectName>GRAPH</projectName>
+    <description>FORTRAN subroutine ?</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-184</decusNumber>
+    <projectProgrammerNumber>[43,50270]</projectProgrammerNumber>
+    <projectName>SPELL</projectName>
+    <description>spelling checker</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-185</decusNumber>
+    <projectProgrammerNumber>[43,50271]</projectProgrammerNumber>
+    <projectName>SYNTAX</projectName>
+    <description>parsing program in Algol ?</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-186</decusNumber>
+    <projectProgrammerNumber>[43,50272]</projectProgrammerNumber>
+    <projectName>META2</projectName>
+    <description>metacompiler ?</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-187</decusNumber>
+    <projectProgrammerNumber>[43,50273]</projectProgrammerNumber>
+    <projectName>DIAL</projectName>
+    <description>routines facilitating async access to PDP-11</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-188</decusNumber>
+    <projectProgrammerNumber>[43,50274]</projectProgrammerNumber>
+    <projectName>Z</projectName>
+    <description>job status system utility</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-189</decusNumber>
+    <projectProgrammerNumber>[43,50275]</projectProgrammerNumber>
+    <projectName>MAFIA</projectName>
+    <description>inter-peripheral file transfer (needs translation from German)</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-190</decusNumber>
+    <projectProgrammerNumber>[43,50276]</projectProgrammerNumber>
+    <projectName>BT</projectName>
+    <description>battleship game, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-191</decusNumber>
+    <projectProgrammerNumber>[43,50277]</projectProgrammerNumber>
+    <projectName>TAPACT</projectName>
+    <description>magtape accounting utilities</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-193</decusNumber>
+    <projectProgrammerNumber>[43,50301]</projectProgrammerNumber>
+    <projectName>Star-n</projectName>
+    <description>list processing language, implementation kit</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-195</decusNumber>
+    <projectProgrammerNumber>[43,50303]</projectProgrammerNumber>
+    <projectName>GRAFITI: Interactive Program for Plot Generation </projectName>
+    <description>plotting routines</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-196</decusNumber>
+    <projectProgrammerNumber>[43,50304]</projectProgrammerNumber>
+    <projectName>MTFILE</projectName>
+    <description>magtape file system utility</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-197</decusNumber>
+    <projectProgrammerNumber>[43,50305]</projectProgrammerNumber>
+    <projectName>FILTER</projectName>
+    <description>converts a COBOL program into Dec-10 COBOL format</description>
+    <decusTapeName>DECUS 10-LIB-2</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-198</decusNumber>
+    <projectProgrammerNumber>[43,50306]</projectProgrammerNumber>
+    <projectName>IMP72 </projectName>
+    <description>programming language; compiler</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-199</decusNumber>
+    <projectProgrammerNumber>[43,50307]</projectProgrammerNumber>
+    <projectName>COFUP</projectName>
+    <description>examines and modifies in-core temp files</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-200</decusNumber>
+    <projectProgrammerNumber>[43,50310]</projectProgrammerNumber>
+    <projectName>VTED </projectName>
+    <description>video-terminal text editor</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-201</decusNumber>
+    <projectProgrammerNumber>[43,50311]</projectProgrammerNumber>
+    <projectName>LOST</projectName>
+    <description>reports lost disk blocks</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-201v5</decusNumber>
+    <projectProgrammerNumber>[43,50312]</projectProgrammerNumber>
+    <projectName>MANTIS</projectName>
+    <description>interactive FORTRAN debugger</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-203</decusNumber>
+    <projectProgrammerNumber>[43,50313]</projectProgrammerNumber>
+    <projectName>GUN001</projectName>
+    <description>game, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-204</decusNumber>
+    <projectProgrammerNumber>[43,50314]</projectProgrammerNumber>
+    <projectName>SPIRIT</projectName>
+    <description>performance logging and operator assistance</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-205</decusNumber>
+    <projectProgrammerNumber>[43,50315]</projectProgrammerNumber>
+    <projectName>OPEN</projectName>
+    <description>gives FOROTS capability to F40 FORTRAN programs</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-206</decusNumber>
+    <projectProgrammerNumber>[43,50316]</projectProgrammerNumber>
+    <projectName>BAKWDS</projectName>
+    <description>exerpt from PIP?</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-207</decusNumber>
+    <projectProgrammerNumber>[43,50317]</projectProgrammerNumber>
+    <projectName>EYES</projectName>
+    <description>converts ASCII to Braille</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-208</decusNumber>
+    <projectProgrammerNumber>[43,50320]</projectProgrammerNumber>
+    <projectName>SCAT2</projectName>
+    <description>complex algebra translator</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-209</decusNumber>
+    <projectProgrammerNumber>[43,50321]</projectProgrammerNumber>
+    <projectName>RANDU</projectName>
+    <description>random number routine, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-3</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-210</decusNumber>
+    <projectProgrammerNumber>[43,50322]</projectProgrammerNumber>
+    <projectName>UCI LISP</projectName>
+    <description>programming language; interpreter</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-211</decusNumber>
+    <projectProgrammerNumber>[43,50323]</projectProgrammerNumber>
+    <projectName>GNOSIS</projectName>
+    <description>CAI authoring language</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-212</decusNumber>
+    <projectProgrammerNumber>[43,50324]</projectProgrammerNumber>
+    <projectName>SPTEX</projectName>
+    <description>orbital plotting program, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-213</decusNumber>
+    <projectProgrammerNumber>[43,50325]</projectProgrammerNumber>
+    <projectName>BLISS-11</projectName>
+    <description>programming language; compiler</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-214</decusNumber>
+    <projectProgrammerNumber>[43,50326]</projectProgrammerNumber>
+    <projectName>ABACUS</projectName>
+    <description>arithmetic calculation utility</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-217</decusNumber>
+    <projectProgrammerNumber>[43,50331]</projectProgrammerNumber>
+    <projectName>DFCODE</projectName>
+    <description>DECtape file protection utility</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-218</decusNumber>
+    <projectProgrammerNumber>[43,50332]</projectProgrammerNumber>
+    <projectName>PALDIS</projectName>
+    <description>cross-disassembler for PDP-8 binary files</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-219</decusNumber>
+    <projectProgrammerNumber>[43,50333]</projectProgrammerNumber>
+    <projectName>CHECK</projectName>
+    <description>check balancing program, in Focal</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-220</decusNumber>
+    <projectProgrammerNumber>[43,50334]</projectProgrammerNumber>
+    <projectName>TOPSTEACH</projectName>
+    <description>TOPS-10 tutorial in GNOSIS format</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-221</decusNumber>
+    <projectProgrammerNumber>[43,50335]</projectProgrammerNumber>
+    <projectName>NMRSIM</projectName>
+    <description>simulation of NMR spectra, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-222</decusNumber>
+    <projectProgrammerNumber>[43,50336]</projectProgrammerNumber>
+    <projectName>FFT</projectName>
+    <description>fast Fourier transform subroutine, in Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-223</decusNumber>
+    <projectProgrammerNumber>[43,50337]</projectProgrammerNumber>
+    <projectName>SIMULA </projectName>
+    <description>programming language</description>
+    <decusTapeName>DECUS 10-LIB-5</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-224</decusNumber>
+    <projectProgrammerNumber>[43,50340]</projectProgrammerNumber>
+    <projectName>SPICE </projectName>
+    <description>circuit simulator</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-225</decusNumber>
+    <projectProgrammerNumber>[43,50341]</projectProgrammerNumber>
+    <projectName>POET</projectName>
+    <description>sets version information for disk files</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-226</decusNumber>
+    <projectProgrammerNumber>[43,50342]</projectProgrammerNumber>
+    <projectName>AVAIL</projectName>
+    <description>searches a list of available software</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-227</decusNumber>
+    <projectProgrammerNumber>[43,50343]</projectProgrammerNumber>
+    <projectName>VTTAM</projectName>
+    <description>various data center and transaction processing utilities</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-228</decusNumber>
+    <projectProgrammerNumber>[43,50344]</projectProgrammerNumber>
+    <projectName>CALCOMP Plotter Package</projectName>
+    <description>various support routines for plotting, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-229</decusNumber>
+    <projectProgrammerNumber>[43,50345]</projectProgrammerNumber>
+    <projectName>ASTRO</projectName>
+    <description>game, in FORTRAN</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-230</decusNumber>
+    <projectProgrammerNumber>[43,50346]</projectProgrammerNumber>
+    <projectName>CHANEL</projectName>
+    <description>inter-processor communications over async line</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-231</decusNumber>
+    <projectProgrammerNumber>[43,50347]</projectProgrammerNumber>
+    <projectName>TULIP</projectName>
+    <description>IO routines for Macro-10 programming</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-233</decusNumber>
+    <projectProgrammerNumber>[43,50351]</projectProgrammerNumber>
+    <projectName>ZAP</projectName>
+    <description>binary file editor</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-235</decusNumber>
+    <projectProgrammerNumber>[43,50353]</projectProgrammerNumber>
+    <projectName>LAN</projectName>
+    <description>linear active network analysis package, in BASIC</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-236</decusNumber>
+    <projectProgrammerNumber>[43,50354]</projectProgrammerNumber>
+    <projectName>FOLD</projectName>
+    <description>makes paper tapes with places to fold</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-237</decusNumber>
+    <projectProgrammerNumber>[43,50355]</projectProgrammerNumber>
+    <projectName>PILOT</projectName>
+    <description>programming language</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-238</decusNumber>
+    <projectProgrammerNumber>[43,50356]</projectProgrammerNumber>
+    <projectName>EXETER</projectName>
+    <description>Star Trek game, in COBOL</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-239</decusNumber>
+    <projectProgrammerNumber>[43,50357]</projectProgrammerNumber>
+    <projectName>RWATCH</projectName>
+    <description>system watch program</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-240</decusNumber>
+    <projectProgrammerNumber>[43,50360]</projectProgrammerNumber>
+    <projectName>KISMET</projectName>
+    <description>card game, in Macro-10</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-241</decusNumber>
+    <projectProgrammerNumber>[43,50361]</projectProgrammerNumber>
+    <projectName>FORTH </projectName>
+    <description>programming language</description>
+    <decusTapeName>DECUS 10-LIB-4</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-242</decusNumber>
+    <projectProgrammerNumber>[43,50362]</projectProgrammerNumber>
+    <projectName>IOLIB</projectName>
+    <description>commonly used routines and macros for Macro-10 programming</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-243</decusNumber>
+    <projectProgrammerNumber>[43,50363]</projectProgrammerNumber>
+    <projectName>PIRETS</projectName>
+    <description>Pitt real-time Star Trek game, in Macro-10</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-244</decusNumber>
+    <projectProgrammerNumber>[43,50364]</projectProgrammerNumber>
+    <projectName>WGMM11</projectName>
+    <description>multiplayer game, in FORTRAN </description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-245</decusNumber>
+    <projectProgrammerNumber>[43,50365]</projectProgrammerNumber>
+    <projectName>MESS</projectName>
+    <description>various biomedical simulations: rats, drugs, schizophrenia</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-246</decusNumber>
+    <projectProgrammerNumber>[43,50366]</projectProgrammerNumber>
+    <projectName>RECSM</projectName>
+    <description>regular expression compiler (needs translation from Spanish)</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-247</decusNumber>
+    <projectProgrammerNumber>[43,50367]</projectProgrammerNumber>
+    <projectName>HEXPWN</projectName>
+    <description>hexpawn game, in BASIC</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-248</decusNumber>
+    <projectProgrammerNumber>[43,50370]</projectProgrammerNumber>
+    <projectName>TR.MAC</projectName>
+    <description>PDP-8 simulator</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-249</decusNumber>
+    <projectProgrammerNumber>[43,50371]</projectProgrammerNumber>
+    <projectName>GAUSS</projectName>
+    <description>quadrature of the normal curve, in FORTRAN</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-251</decusNumber>
+    <projectProgrammerNumber>[43,50373]</projectProgrammerNumber>
+    <projectName>TBF</projectName>
+    <description>cumulative probabilities under Student's T or Behren's PDFs</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-252</decusNumber>
+    <projectProgrammerNumber>[43,50374]</projectProgrammerNumber>
+    <projectName>SOS</projectName>
+    <description>text editor; v 23(220) (ca 1976)</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-253</decusNumber>
+    <projectProgrammerNumber>[43,50375]</projectProgrammerNumber>
+    <projectName>READ</projectName>
+    <description>program in BASIC ?</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-254</decusNumber>
+    <projectProgrammerNumber>[43,50376]</projectProgrammerNumber>
+    <projectName>MAGGIE</projectName>
+    <description>pseudo random access for magtapes</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-255</decusNumber>
+    <projectProgrammerNumber>[43,50377]</projectProgrammerNumber>
+    <projectName>INVSIM</projectName>
+    <description>program in BASIC ?</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-256</decusNumber>
+    <projectProgrammerNumber>[43,50400]</projectProgrammerNumber>
+    <projectName>D2D</projectName>
+    <description>disk to disk copy program, in Bliss</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-257</decusNumber>
+    <projectProgrammerNumber>[43,50401]</projectProgrammerNumber>
+    <projectName>LIN841</projectName>
+    <description>linear least-squares curve fitting program</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-258</decusNumber>
+    <projectProgrammerNumber>[43,50402]</projectProgrammerNumber>
+    <projectName>NONLIN</projectName>
+    <description>possibly non-linear curve fitting ?</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-259</decusNumber>
+    <projectProgrammerNumber>[43,50403]</projectProgrammerNumber>
+    <projectName>PDO</projectName>
+    <description>DECtape organization tools</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-260</decusNumber>
+    <projectProgrammerNumber>[43,50404]</projectProgrammerNumber>
+    <projectName>Information Storage and Retrieval </projectName>
+    <description>various undocumented programs in BASIC ?</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-261</decusNumber>
+    <projectProgrammerNumber>[43,50405]</projectProgrammerNumber>
+    <projectName>SORTER</projectName>
+    <description>compares different sort methods</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-262</decusNumber>
+    <projectProgrammerNumber>[43,50406]</projectProgrammerNumber>
+    <projectName>COMPUT and lWOPER </projectName>
+    <description>various demo programs in Algol, BASIC, COBOL, and FORTRAN</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-263</decusNumber>
+    <projectProgrammerNumber>[43,50407]</projectProgrammerNumber>
+    <projectName>DSKCPY</projectName>
+    <description>copy file structures disk to disk</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-264</decusNumber>
+    <projectProgrammerNumber>[43,50410]</projectProgrammerNumber>
+    <projectName>XTEC</projectName>
+    <description>text editor, TECO superset</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-265</decusNumber>
+    <projectProgrammerNumber>[43,50411]</projectProgrammerNumber>
+    <projectName>BASIC</projectName>
+    <description>Univ of Penn Medical School</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-266</decusNumber>
+    <projectProgrammerNumber>[43,50412]</projectProgrammerNumber>
+    <projectName>TOPS</projectName>
+    <description>possibly a simulation of TOPS-10 system loading</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-267</decusNumber>
+    <projectProgrammerNumber>[43,50413]</projectProgrammerNumber>
+    <projectName>COBEDT</projectName>
+    <description>COBOL source editor</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-268</decusNumber>
+    <projectProgrammerNumber>[43,50414]</projectProgrammerNumber>
+    <projectName>IPCF10</projectName>
+    <description>FORTRAN inter-process communications</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-269</decusNumber>
+    <projectProgrammerNumber>[43,50415]</projectProgrammerNumber>
+    <projectName>ADRES: For Handling Address Files and Printing Adhesive Labels </projectName>
+    <description>various support classes for SIMULA applications</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-270</decusNumber>
+    <projectProgrammerNumber>[43,50416]</projectProgrammerNumber>
+    <projectName>PROC10</projectName>
+    <description>image processing routines, in SAIL</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-271</decusNumber>
+    <projectProgrammerNumber>[43,50417]</projectProgrammerNumber>
+    <projectName>Pascal</projectName>
+    <description>developed at University of Hamburg</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-272</decusNumber>
+    <projectProgrammerNumber>[43,50420]</projectProgrammerNumber>
+    <projectName>BESLIB</projectName>
+    <description>support library for FORTRAN programming ?</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-273</decusNumber>
+    <projectProgrammerNumber>[43,50421]</projectProgrammerNumber>
+    <projectName>INDEX</projectName>
+    <description>support library for FORTRAN programming ?</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-274</decusNumber>
+    <projectProgrammerNumber>[43,50422]</projectProgrammerNumber>
+    <projectName>CADA</projectName>
+    <description>computer assisted data analysis package, in BASIC</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-275</decusNumber>
+    <projectProgrammerNumber>[43,50423]</projectProgrammerNumber>
+    <projectName>DTSORT</projectName>
+    <description>DECtape alphabetical directory sort</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-276</decusNumber>
+    <projectProgrammerNumber>[43,50424]</projectProgrammerNumber>
+    <projectName>FPRINT</projectName>
+    <description>routine to handle COBOL line printer files, in Macro-10</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-277</decusNumber>
+    <projectProgrammerNumber>[43,50425]</projectProgrammerNumber>
+    <projectName>TWOSID</projectName>
+    <description>convert a file to print on two-sided paper, in Bliss</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-280</decusNumber>
+    <projectProgrammerNumber>[43,50430]</projectProgrammerNumber>
+    <projectName>CLUSTR: A Comprehensive Suite for Numerical Classification </projectName>
+    <description>various classification routines, in FORTRAN</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-283</decusNumber>
+    <projectProgrammerNumber>[43,50433]</projectProgrammerNumber>
+    <projectName>System Programmer's Pascal</projectName>
+    <description> modified version of Hamburg Pascal, from Rutgers University</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-284</decusNumber>
+    <projectProgrammerNumber>[43,50434]</projectProgrammerNumber>
+    <projectName>BOOK</projectName>
+    <description>picture book graphics manipulation package ?</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-285</decusNumber>
+    <projectProgrammerNumber>[43,50435]</projectProgrammerNumber>
+    <projectName>SQUASH</projectName>
+    <description>user file-library manager</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-286</decusNumber>
+    <projectProgrammerNumber>[43,50436]</projectProgrammerNumber>
+    <projectName>CUSH2</projectName>
+    <description>simulation of drop tests for cushioned parcels</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-287</decusNumber>
+    <projectProgrammerNumber>[43,50437]</projectProgrammerNumber>
+    <projectName>BOSS</projectName>
+    <description>package to gather and report system performance statistics</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-289</decusNumber>
+    <projectProgrammerNumber>[43,50441]</projectProgrammerNumber>
+    <projectName>REV</projectName>
+    <description>general file manipulation utility</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-290</decusNumber>
+    <projectProgrammerNumber>[43,50442]</projectProgrammerNumber>
+    <projectName>VENN</projectName>
+    <description>CAI for syllogistic reasoning</description>
+    <decusTapeName>10-LIB-6</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-291</decusNumber>
+    <projectProgrammerNumber>[43,50443]</projectProgrammerNumber>
+    <projectName>XPL</projectName>
+    <description>a compiler/compiler</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-292</decusNumber>
+    <projectProgrammerNumber>[43,50444]</projectProgrammerNumber>
+    <projectName>Revised Plotter Subroutines for DEC-10</projectName>
+    <description>plotting support routines for FORTRAN programming</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-293</decusNumber>
+    <projectProgrammerNumber>[43,50445]</projectProgrammerNumber>
+    <projectName>FLECS</projectName>
+    <description>FORTRAN language with extended control structures</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-294</decusNumber>
+    <projectProgrammerNumber>[43,50446]</projectProgrammerNumber>
+    <projectName>GIDUS</projectName>
+    <description>interactive graphics package for the GT40 terminal</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-296</decusNumber>
+    <projectProgrammerNumber>[43,50450]</projectProgrammerNumber>
+    <projectName>RSXMAC</projectName>
+    <description>Bliss-11 macros for use with the RSX-11M operating system</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+
+    <!-- DECUS Program Library DECsystem-10/20 Catalog of April 1978 ends at this point... -->
+
+  <decusProject>
+    <decusNumber>10-298</decusNumber>
+    <projectProgrammerNumber>[43,50452]</projectProgrammerNumber>
+    <projectName>NORMAL</projectName>
+    <description>mean and standard deviation for a set of scores, in FORTRAN</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-299</decusNumber>
+    <projectProgrammerNumber>[43,50453]</projectProgrammerNumber>
+    <projectName>COPYMT</projectName>
+    <description>magtape copier utility</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-300</decusNumber>
+    <projectProgrammerNumber>[43,50454]</projectProgrammerNumber>
+    <projectName>BAKGMN</projectName>
+    <description>backgammon game, in BASIC</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-301</decusNumber>
+    <projectProgrammerNumber>[43,50455]</projectProgrammerNumber>
+    <projectName>STRMAC</projectName>
+    <description>possibly commonly used macros for Macro-10 programming ?</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-302</decusNumber>
+    <projectProgrammerNumber>[43,50456]</projectProgrammerNumber>
+    <projectName>LIBMAN</projectName>
+    <description>user file-library manager</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-303</decusNumber>
+    <projectProgrammerNumber>[43,50457]</projectProgrammerNumber>
+    <projectName>DUMPR</projectName>
+    <description>dump files in readable format</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-304</decusNumber>
+    <projectProgrammerNumber>[43,50460]</projectProgrammerNumber>
+    <projectName>XGLOB</projectName>
+    <description>assist with development of program overlay structures</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-306</decusNumber>
+    <projectProgrammerNumber>[43,50462]</projectProgrammerNumber>
+    <projectName>FOCAL-10 </projectName>
+    <description>programming language</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-307</decusNumber>
+    <projectProgrammerNumber>[43,50463]</projectProgrammerNumber>
+    <projectName>VIDED</projectName>
+    <description>video-terminal editing program</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-308</decusNumber>
+    <projectProgrammerNumber>[43,50464]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>source code is possibly mangled ?</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-309</decusNumber>
+    <projectProgrammerNumber>[43,50465]</projectProgrammerNumber>
+    <projectName>MACY11</projectName>
+    <description>cross assembler for PDP-11</description>
+    <decusTapeName>10-LIB-7</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-310</decusNumber>
+    <projectProgrammerNumber>[43,50466]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>many routines for data and numerical analysis, from WMU</description>
+    <decusTapeName>10-LIB-9</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-311</decusNumber>
+    <projectProgrammerNumber>[43,50467]</projectProgrammerNumber>
+    <projectName>BRDEAL</projectName>
+    <description>card game, in FORTRAN ?</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-312</decusNumber>
+    <projectProgrammerNumber>[43,50470]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>various magtape utilities</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-313</decusNumber>
+    <projectProgrammerNumber>[43,50471]</projectProgrammerNumber>
+    <projectName>DIRSRT</projectName>
+    <description>directory sorting utility</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-314</decusNumber>
+    <projectProgrammerNumber>[43,50472]</projectProgrammerNumber>
+    <projectName>SCAN</projectName>
+    <description>library of routines for application programming; documentation only?</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-315</decusNumber>
+    <projectProgrammerNumber>[43,50473]</projectProgrammerNumber>
+    <projectName>DTCERT</projectName>
+    <description>DECtape certification utility</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-316</decusNumber>
+    <projectProgrammerNumber>[43,50474]</projectProgrammerNumber>
+    <projectName>TECO10</projectName>
+    <description>text editor, TECO superset</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-317</decusNumber>
+    <projectProgrammerNumber>[43,50475]</projectProgrammerNumber>
+    <projectName>CROSS </projectName>
+    <description>cross-assembler for various microprocessors</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-318</decusNumber>
+    <projectProgrammerNumber>[43,50476]</projectProgrammerNumber>
+    <projectName>FASP</projectName>
+    <description>FORTRAN alphameric subroutine package</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-319</decusNumber>
+    <projectProgrammerNumber>[43,50477]</projectProgrammerNumber>
+    <projectName>WKDAY</projectName>
+    <description>week day names of 20th C dates, in FORTRAN</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-320</decusNumber>
+    <projectProgrammerNumber>[43,50500]</projectProgrammerNumber>
+    <projectName>STRUCT</projectName>
+    <description>Macro-10 structured programming macros</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-321</decusNumber>
+    <projectProgrammerNumber>[43,50501]</projectProgrammerNumber>
+    <projectName>FORUM</projectName>
+    <description>inter-terminal chat program, and other utilities</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-322</decusNumber>
+    <projectProgrammerNumber>[43,50502]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>calendars and ASCII art</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-323</decusNumber>
+    <projectProgrammerNumber>[43,50503]</projectProgrammerNumber>
+    <projectName>TRAD8</projectName>
+    <description>?</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-324</decusNumber>
+    <projectProgrammerNumber>[43,50504]</projectProgrammerNumber>
+    <projectName>MULREG</projectName>
+    <description>multiple regression analysis package</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-325</decusNumber>
+    <projectProgrammerNumber>[43,50505]</projectProgrammerNumber>
+    <projectName>ANTE / VE</projectName>
+    <description>text editors</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-326</decusNumber>
+    <projectProgrammerNumber>[43,50506]</projectProgrammerNumber>
+    <projectName>KEYWRD</projectName>
+    <description>word and phrase recognition logic</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-327</decusNumber>
+    <projectProgrammerNumber>[43,50507]</projectProgrammerNumber>
+    <projectName>PENNZYME</projectName>
+    <description>biomedical simulation, documentation only</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-328</decusNumber>
+    <projectProgrammerNumber>[43,50510]</projectProgrammerNumber>
+    <projectName>FORMAT</projectName>
+    <description>FORTRAN FORMAT statement generator</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-329</decusNumber>
+    <projectProgrammerNumber>[43,50511]</projectProgrammerNumber>
+    <projectName>INDEX</projectName>
+    <description>index of brief descriptions of programs, commands, and utilities</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-330</decusNumber>
+    <projectProgrammerNumber>[43,50512]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>utilities from Univ College of North Wales</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-331</decusNumber>
+    <projectProgrammerNumber>[43,50513]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>utilities from Univ College of North Wales</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-332</decusNumber>
+    <projectProgrammerNumber>[43,50514]</projectProgrammerNumber>
+    <projectName>UUOFUN</projectName>
+    <description>monitor calls as callable functions</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-333</decusNumber>
+    <projectProgrammerNumber>[43,50515]</projectProgrammerNumber>
+    <projectName>VT105</projectName>
+    <description>VT105 graphics package</description>
+    <decusTapeName>10-LIB-8</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-334</decusNumber>
+    <projectProgrammerNumber>[43,50516]</projectProgrammerNumber>
+    <projectName>BASIC</projectName>
+    <description>Univ of Penn Medical School</description>
+    <decusTapeName>10-LIB-10</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-335</decusNumber>
+    <projectProgrammerNumber>[43,50517]</projectProgrammerNumber>
+    <projectName>RPG II </projectName>
+    <description>report generator language</description>
+    <decusTapeName>10-LIB-10</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-336</decusNumber>
+    <projectProgrammerNumber>[43,50520]</projectProgrammerNumber>
+    <projectName>STP</projectName>
+    <description>WMU statistics package</description>
+    <decusTapeName>10-LIB-10</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-337</decusNumber>
+    <projectProgrammerNumber>[43,50521]</projectProgrammerNumber>
+    <projectName>BANK</projectName>
+    <description>data analysis package, from WMU</description>
+    <decusTapeName>10-LIB-10</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-338</decusNumber>
+    <projectProgrammerNumber>[43,50522]</projectProgrammerNumber>
+    <projectName>BIBLIO</projectName>
+    <description>creates and searches bibliographic references</description>
+    <decusTapeName>10-LIB-10</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-339</decusNumber>
+    <projectProgrammerNumber>[43,50523]</projectProgrammerNumber>
+    <projectName>HIS</projectName>
+    <description>simulation of a random experiment</description>
+    <decusTapeName>10-LIB-10</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-340</decusNumber>
+    <projectProgrammerNumber>[43,50524]</projectProgrammerNumber>
+    <projectName>D2D</projectName>
+    <description>disk to disk copy of file structures</description>
+    <decusTapeName>10-LIB-10</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-341</decusNumber>
+    <projectProgrammerNumber>[43,50525]</projectProgrammerNumber>
+    <projectName>PTYCBL</projectName>
+    <description>enables COBOL programs to issue shell commands</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-342</decusNumber>
+    <projectProgrammerNumber>[43,50526]</projectProgrammerNumber>
+    <projectName>SAM76 </projectName>
+    <description>programming language</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-343</decusNumber>
+    <projectProgrammerNumber>[43,50527]</projectProgrammerNumber>
+    <projectName>MAILER</projectName>
+    <description>inter-account mail</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-344</decusNumber>
+    <projectProgrammerNumber>[43,50530]</projectProgrammerNumber>
+    <projectName>PASCAL</projectName>
+    <description>programming language; compiler</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-345</decusNumber>
+    <projectProgrammerNumber>[43,50531]</projectProgrammerNumber>
+    <projectName>PASCAL</projectName>
+    <description>programming language; compiler</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-346</decusNumber>
+    <projectProgrammerNumber>[43,50532]</projectProgrammerNumber>
+    <projectName>RIDIT</projectName>
+    <description>nonparametric statistical test</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-347</decusNumber>
+    <projectProgrammerNumber>[43,50533]</projectProgrammerNumber>
+    <projectName>SURVEY</projectName>
+    <description>generic survey preparation</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-348</decusNumber>
+    <projectProgrammerNumber>[43,50534]</projectProgrammerNumber>
+    <projectName>CSSDBM</projectName>
+    <description>database management system</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-349</decusNumber>
+    <projectProgrammerNumber>[43,50535]</projectProgrammerNumber>
+    <projectName>PHI</projectName>
+    <description>documentation management system</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-350</decusNumber>
+    <projectProgrammerNumber>[43,50536]</projectProgrammerNumber>
+    <projectName>DECWAR</projectName>
+    <description>multi-player game, and many ASCII art files</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-351</decusNumber>
+    <projectProgrammerNumber>[43,50537]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>GNOSIS lessons on SED, Screen Editor</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-352?</decusNumber>
+    <projectProgrammerNumber>[43,50540]</projectProgrammerNumber>
+    <projectName>COLORS</projectName>
+    <description>changes colors on the Tektronix 4027</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-353?</decusNumber>
+    <projectProgrammerNumber>[43,50541]</projectProgrammerNumber>
+    <projectName>MAIL  </projectName>
+    <description>mailing label addressing system</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-354?</decusNumber>
+    <projectProgrammerNumber>[43,50542]</projectProgrammerNumber>
+    <projectName>FROFF </projectName>
+    <description>text markup program</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-355?</decusNumber>
+    <projectProgrammerNumber>[43,50543]</projectProgrammerNumber>
+    <projectName>WEEKLY</projectName>
+    <description>academic calendar program</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-356?</decusNumber>
+    <projectProgrammerNumber>[43,50544]</projectProgrammerNumber>
+    <projectName>PRETTY</projectName>
+    <description>Bliss source pretty printer</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-357?</decusNumber>
+    <projectProgrammerNumber>[43,50545]</projectProgrammerNumber>
+    <projectName>OFFICE </projectName>
+    <description>resume management system</description>
+    <decusTapeName>10-LIB-11</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-358</decusNumber>
+    <projectProgrammerNumber>[43,50546]</projectProgrammerNumber>
+    <projectName>JOBS </projectName>
+    <description>job interview management system</description>
+    <decusTapeName>10-LIB-12</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-359</decusNumber>
+    <projectProgrammerNumber>[43,50547]</projectProgrammerNumber>
+    <projectName>PLOT </projectName>
+    <description>graphic plotting package</description>
+    <decusTapeName>10-LIB-12</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-360</decusNumber>
+    <projectProgrammerNumber>[43,50550]</projectProgrammerNumber>
+    <projectName>FORMAL</projectName>
+    <description>FORTRAN matrix algebra library</description>
+    <decusTapeName>10-LIB-12</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-361</decusNumber>
+    <projectProgrammerNumber>[43,50551]</projectProgrammerNumber>
+    <projectName>DUMPER</projectName>
+    <description>manipulates tapes created by TOPS-20 DUMPER</description>
+    <decusTapeName>10-LIB-12</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-362</decusNumber>
+    <projectProgrammerNumber>[43,50552]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>possibly related to a lexical analysis program ?</description>
+    <decusTapeName>10-LIB-12</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-363</decusNumber>
+    <projectProgrammerNumber>[43,50553]</projectProgrammerNumber>
+    <projectName>FNDFIL</projectName>
+    <description>locate old file versions on magtape</description>
+    <decusTapeName>10-LIB-12</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>10-364</decusNumber>
+    <projectProgrammerNumber>[43,50554]</projectProgrammerNumber>
+    <projectName>none</projectName>
+    <description>several utilities for system security and performance</description>
+    <decusTapeName>10-LIB-12</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>none</decusNumber>
+    <projectProgrammerNumber>[43,60000]</projectProgrammerNumber>
+    <projectName>RENBR</projectName>
+    <description>tape 13, saveset 1; renumber FORTRAN source</description>
+    <decusTapeName>10-LIB-13</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>none</decusNumber>
+    <projectProgrammerNumber>[43,60001]</projectProgrammerNumber>
+    <projectName>PSWCHK</projectName>
+    <description>tape 13, saveset 4; strong password generator</description>
+    <decusTapeName>10-LIB-13</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>none</decusNumber>
+    <projectProgrammerNumber>[43,60002]</projectProgrammerNumber>
+    <projectName>CRYPT</projectName>
+    <description>tape 13, saveset 5; file encryption utility</description>
+    <decusTapeName>10-LIB-13</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>none</decusNumber>
+    <projectProgrammerNumber>[43,60003]</projectProgrammerNumber>
+    <projectName>PODTYP</projectName>
+    <description>tape 13, saveset 6; print files to user terminals</description>
+    <decusTapeName>10-LIB-13</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>none</decusNumber>
+    <projectProgrammerNumber>[43,60004]</projectProgrammerNumber>
+    <projectName>MONRPT / RESP</projectName>
+    <description>tape 13, saveset 7; system performance monitors</description>
+    <decusTapeName>10-LIB-13</decusTapeName>
+  </decusProject>
+  <decusProject>
+    <decusNumber>none</decusNumber>
+    <projectProgrammerNumber>[43,60005]</projectProgrammerNumber>
+    <projectName>FPAINT</projectName>
+    <description>tape 13, saveset 8; ?</description>
+    <decusTapeName>10-LIB-13</decusTapeName>
+  </decusProject>
+</decusProjects>
+

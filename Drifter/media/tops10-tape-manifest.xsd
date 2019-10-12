@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Schema generation thanks to https://www.freeformatter.com/  -->
+
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    attributeFormDefault="unqualified" 
+    elementFormDefault="qualified">
+  <xs:element name="tapes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tape" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="label"/>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="notes"/>
+              <xs:element type="xs:string" name="purpose"/>
+              <xs:element type="xs:string" name="filename"/>
+              <xs:element name="urls">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="url" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:anyURI">
+                            <xs:attribute type="xs:string" name="preferred" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
