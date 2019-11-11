@@ -9,7 +9,7 @@
 
     <!-- TOPS-10 7.04 Monitor Installation -->
 
-    <tape>
+    <tape id="649648dd-af8c-4653-93c1-88dbf1825b25">
         <label>BB-X138C-BB</label>
         <name>TOPS-10 7.04 KS Bootable tape</name>
         <notes></notes>
@@ -21,7 +21,7 @@
             <url>http://www.bitsavers.org/bits/DEC/pdp10/magtape/dec_distribs/TOPS-10/BB-X138C-BB_1988.tap.gz</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="46683e17-c0fe-4d43-b0cf-d068ef1d5078">
         <label>BB-X140C-SB</label>
         <name>TOPS-10 7.04 Montor ANF</name>
         <notes></notes>
@@ -33,7 +33,7 @@
             <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/tops10_704_monitoranf_bb-x140c-sb.tap</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="52d8bd4a-a25a-429f-b2f3-8ca1fac6e0af">
         <label>BB-X133C-SB</label>
         <name>TOPS-10 7.04 MPE</name>
         <notes></notes>
@@ -45,7 +45,7 @@
             <url>http://www.bitsavers.org/bits/DEC/pdp10/magtape/dec_distribs/TOPS-10/BB-X133C-SB_1988.tap.gz</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="3a117bb6-576a-41ce-8e13-8e1783591f2f">
         <label>no label</label>
         <name>TOPS-10 7.04 SPI Monitor</name>
         <notes></notes>
@@ -56,7 +56,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/tops-10_7_04_spi_monitor.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="34ffdec1-2f94-4c74-9444-88e957827ce1">
         <label>BB-X128C-SB</label>
         <name>TOPS-10 CUSP BIN and SRC, tape 1 of 2</name>
         <notes></notes>
@@ -68,7 +68,7 @@
             <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/cuspbinsrc_1of2_bb-x128c-sb.tap</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="d4825a77-a366-4513-ae78-ad11acc3f509">
         <label>BB-FP63B-SB</label>
         <name>TOPS-10 CUSP BIN and SRC, tape 2 of 2</name>
         <notes></notes>
@@ -80,7 +80,7 @@
             <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/cuspbinsrc_2of2_bb-fp63b-sb.tap</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="585b6894-1ca9-4749-95be-b4198b39963a">
         <label>BB-X130C-SB</label>
         <name>TOPS-10 Customer Supported CUSPs</name>
         <notes></notes>
@@ -92,7 +92,7 @@
             <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/mandatory/cust_sup_cusp_bb-x130c-sb.tap</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="71263c87-4c9a-4354-a8a2-ba96453ec194">
         <label>BB-FP64B-SB</label>
         <name>TOPS-10 Tools</name>
         <notes></notes>
@@ -104,7 +104,7 @@
             <url>https://github.com/PDP-10/tops10-tapes/raw/576b4bdfb4f05da3d1de235a111aba9b30e0606d/tools/tops10_tools_bb-fp64b-sb.tap</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="60fc1557-c2e0-4a1a-a86d-d2bc7773f130">
         <label>no label</label>
         <name>TOPS-10 V7.04 Auxilluary Tape for TOPS-10 V7.04 Load 361</name>
         <notes></notes>
@@ -118,7 +118,7 @@
 
     <!-- TOPS-10 Layered Products -->
 
-    <tape>
+    <tape id="d4becb5c-0795-4648-9f3e-5982c9bf229f">
         <label>AP-5069B-SB</label>
         <name>ALGOL-10 Version 10 1977</name>
         <notes></notes>
@@ -129,7 +129,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/ap-5069b-sb.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="422dbc35-29f9-4ba6-b5d4-b8e7581e8130">
         <label>AP-5069C-SB</label>
         <name>ALGOL-10 Version 10A 1978</name>
         <notes></notes>
@@ -140,7 +140,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/ap-5069c-sb.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="dca9e0f2-5aff-4a48-a76f-eced75fbf586">
         <label>no label</label>
         <name>APLSF V2 (435) September 1979</name>
         <notes></notes>
@@ -151,7 +151,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/aplsfv2.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="5d5f65c2-f37c-4567-880d-d8e4813827f9">
         <label>BB-M178A-SB</label>
         <name>BASIC-10 V17F 18-May-1981</name>
         <notes></notes>
@@ -162,7 +162,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/basic17f.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="de697eb7-c797-48d5-8b28-e8d8f7d058b3">
         <label>BB-J941F-BB</label>
         <name>BLISS-36 V4.2 (236) 16-Oct-1989</name>
         <notes></notes>
@@ -173,7 +173,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/bls36v42.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="278479f1-914a-4a40-a343-baadf58f7cd2">
         <label>AP-C800D-SB</label>
         <name>DEC 10 COBOL 68 V12A APR 16 1980</name>
         <notes></notes>
@@ -184,7 +184,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/ap-c800d-sb.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="50fbd1bb-6fd1-472d-b4d7-9d9cebcc9b82">
         <label>no label</label>
         <name>COBOL-74 V12C</name>
         <notes></notes>
@@ -195,7 +195,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/cobol12c.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="a14d3899-d57a-4ca5-b3b4-fe023b3ee433">
         <label>no label</label>
         <name>DBMS V5A</name>
         <notes></notes>
@@ -206,7 +206,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/dbmsv5a.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="f577e8e9-ed3e-4951-a28d-0ca12b1d2a99">
         <label>no label</label>
         <name>IQL3A V30 21-Feb-1980</name>
         <notes></notes>
@@ -217,7 +217,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/iqlv30.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="71d680f5-760d-44a6-ac05-89f7014b93fb">
         <label>no label</label>
         <name>Fortran-10 Version 11 Field-Test Tape 3 January 1987</name>
         <notes></notes>
@@ -228,7 +228,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/fortv11.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="5d929574-2c29-46d9-bfa8-ccf37ba5c732">
         <label>no label</label>
         <name>Message System V11CK 23-Jun-1986</name>
         <notes></notes>
@@ -239,7 +239,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/msv11ck.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="3a86c87c-d471-4bd4-b904-5297112aed2a">
         <label>no label</label>
         <name>RMS-10 1A April 1988</name>
         <notes></notes>
@@ -250,7 +250,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/704rmsf2.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="ef2ccc05-1222-4262-8322-e672ea44e734">
         <label>no label</label>
         <name>TOPS-10 SORT V4D 18-Aug-1989</name>
         <notes></notes>
@@ -264,7 +264,7 @@
 
     <!-- TOPS-10 Software Update -->
 
-    <tape>
+    <tape id="99a04607-d1d6-43cd-ac93-9e5207009c65">
         <label>BB-BT99S-BB</label>
         <name>TOPS-10 704 TSU01 TP 1 OF 3 1990</name>
         <notes></notes>
@@ -275,7 +275,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/bb-bt99s-bb.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="1d5d7993-867a-4e71-b893-2f8a3b89b39f">
         <label>BB-JR93K-BB</label>
         <name>TOPS-10 704 TSU01 TP 2 OF 3 1990</name>
         <notes></notes>
@@ -286,7 +286,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/bb-jr93k-bb.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="a6612b26-7d7e-44cc-91e2-cbfafd1e4a5d">
         <label>BB-PBDEA-BB</label>
         <name>TOPS-10 704 TSU01 TP 3 OF 3 1990</name>
         <notes></notes>
@@ -297,7 +297,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/bb-pbdea-bb.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="97bc1943-6eab-4732-9e75-980155f6d623">
         <label>BB-BT99T-BB_1990</label>
         <name>TOPS-10 704 TSU02 TP 1 OF 3 1990</name>
         <notes></notes>
@@ -308,7 +308,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/BB-BT99T-BB_1990.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="33416b8c-491b-4567-94a6-a10beeb7af77">
         <label>BB-JR93L-BB_1990</label>
         <name>TOPS-10 704 TSU02 TP 2 OF 3 1990</name>
         <notes></notes>
@@ -319,7 +319,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/BB-JR93L-BB_1990.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="60c56290-54f1-41a2-8b6a-9e081008c76d">
         <label>BB-PBDEB-BB_1990</label>
         <name>TOPS-10 704 TSU02 TP 3 OF 3 1990</name>
         <notes></notes>
@@ -330,7 +330,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/BB-PBDEB-BB_1990.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="f3c1ff61-9a6d-4def-ba18-ab1840fd7b07">
         <label>BB-BT99U-BB_1990</label>
         <name>TOPS-10 704 TSU03 TP 1 OF 3 1990</name>
         <notes></notes>
@@ -345,7 +345,7 @@
     <!-- TOPS-10 704 TSU03 TP 2 OF 3 1990 is not available -->
     <!-- http://www.computerhistory.org/collections/catalog/102773729 -->
     <!--
-    <tape>
+    <tape id="guid goes here">
         <label>BB-JR93M-BB</label>
         <name>TOPS-10 704 TSU03 TP 2 OF 3 1990</name>
         <notes></notes>
@@ -358,7 +358,7 @@
     </tape>
     -->
 
-    <tape>
+    <tape id="77bd80ab-8fb9-4d83-9b19-5168b37be519">
         <label>BB-PBDEC-BB_1990</label>
         <name>TOPS-10 704 TSU03 TP 3 OF 3 1990</name>
         <notes></notes>
@@ -369,7 +369,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/BB-PBDEC-BB_1990.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="e77f4898-ad59-4365-b312-f0443448a8ad">
         <label>BB-BT99V-BB_1990</label>
         <name>TOPS-10 704 TSU04 TP 1 OF 3 1990</name>
         <notes></notes>
@@ -380,7 +380,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/BB-BT99V-BB_1990.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="9be93c18-51ba-46e5-9728-b1e9e01eaabc">
         <label>BB-JR93N-BB_1990</label>
         <name>TOPS-10 704 TSU04 TP 2 OF 3 1990</name>
         <notes></notes>
@@ -391,7 +391,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/BB-JR93N-BB_1990.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="da9971c0-6ae2-40d9-9026-d28484dff333">
         <label>BB-PBDED-BB_1990</label>
         <name>TOPS-10 704 TSU04 TP 3 OF 3 1990</name>
         <notes></notes>
@@ -405,7 +405,7 @@
 
     <!-- TOPS-10 Documentation Update -->
 
-    <tape>
+    <tape id="4d3548b4-7363-48bb-8555-e911df673a08">
         <label>BB-PCV2A-BB</label>
         <name>Documentation Update Files for TOPS-10 V7.04 DOCA 16-May-1990</name>
         <notes></notes>
@@ -416,7 +416,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/tops10v704_doca.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="cd642b7e-5ca6-4e4a-a05a-d3449d98de9a">
         <label>BB-PCV2B-BB</label>
         <name>Documentation Update Files for TOPS-10 V7.04 DOCB 2-Aug-1990</name>
         <notes></notes>
@@ -427,7 +427,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/tops10v704_docb.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="46849479-34a3-4327-b10c-260b1aee8d0a">
         <label>BB-PCV2C-BB</label>
         <name>Documentation Update Files for TOPS-10 V7.04 DOCC 30-Nov-1990</name>
         <notes></notes>
@@ -442,7 +442,7 @@
 
     <!-- DECUS-10 library tapes -->
 
-    <tape>
+    <tape id="a9382ffc-7ced-49da-8584-00cc8e3cee49">
         <label>decuslib10-01</label>
         <name>DECUS 10-LIB-1</name>
         <notes>Contains 10-3 through 10-138 except 10-101</notes>
@@ -453,7 +453,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-01.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="c569905e-2b34-432c-b145-0c3b6d034223">
         <label>decuslib10-02</label>
         <name>DECUS 10-LIB-2</name>
         <notes>Contains 10-101 and 10-139 through 10-197 except 10-176 and 10-184</notes>
@@ -464,7 +464,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-02.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="1f426068-b56c-4d34-9732-4381bc5f2b69">
         <label>decuslib10-03</label>
         <name>DECUS 10-LIB-3</name>
         <notes>Contains 10-176, 10-184, and 10-198 through 10-209</notes>
@@ -475,7 +475,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-03.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="a8ff6078-cf10-405e-aba3-0191ce8bb1d3">
         <label>decuslib10-04</label>
         <name>DECUS 10-LIB-4</name>
         <notes>Contains 10-210 through 10-241, except 10-223</notes>
@@ -486,7 +486,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-04.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="29e59f39-160b-4a4f-91a0-8619961a06aa">
         <label>decuslib10-05</label>
         <name>DECUS 10-LIB-5</name>
         <notes>Contains 10-223</notes>
@@ -497,7 +497,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-05.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="c2ea38f0-cd8e-4849-8752-ff07c03cfccf">
         <label>decuslib10-06</label>
         <name>DECUS 10-LIB-6</name>
         <notes>Contains 10-242 through 10-290, except 10-283</notes>
@@ -508,7 +508,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-06.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="3c860377-28e4-4598-877c-075f5bcf3721">
         <label>decuslib10-07</label>
         <name>DECUS 10-LIB-7</name>
         <notes>Contains 10-283 plus 10-291 through 10-309 except 10-307</notes>
@@ -519,7 +519,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-07.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="349c71b5-783d-4130-8ea0-0a04c065aeb1">
         <label>decuslib10-08</label>
         <name>DECUS 10-LIB-8</name>
         <notes>Contains 10-307 plus 10-311 through 10-333 except 10-310</notes>
@@ -530,7 +530,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-08.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="117c2bf8-94bb-423c-9ba7-b1d07f292ecf">
         <label>decuslib10-09</label>
         <name>DECUS 10-LIB-9</name>
         <notes>Contains 10-310</notes>
@@ -541,7 +541,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-09.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="d62bfbe7-07ba-4458-9ceb-6719d3ad6f74">
         <label>decuslib10-10</label>
         <name>DECUS 10-LIB-10</name>
         <notes>Contains 10-334 through 10-340</notes>
@@ -552,7 +552,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-10.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="60cba024-81e1-4011-8473-7a6b21c81681">
         <label>decuslib10-11</label>
         <name>DECUS 10-LIB-11</name>
         <notes>Contains 10-341 through 10-349</notes>
@@ -563,7 +563,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-11.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="d23fb0be-d3e8-4782-af73-c99a797bcce8">
         <label>decuslib10-12</label>
         <name>DECUS 10-LIB-12</name>
         <notes>Contains 10-358 through 10-364</notes>
@@ -574,7 +574,7 @@
             <url>http://pdp-10.trailing-edge.com/tapes/decuslib10-12.tap.bz2</url>
         </urls>
     </tape>
-    <tape>
+    <tape id="b55283e1-0e58-4f96-9f5a-a638c99de86c">
         <label>decuslib10-13</label>
         <name>10-LIB-13</name>
         <notes>Contains a revised 10-130, PSWCHK, CRYPT, PODTYP, MONRPT/RESP, and FPAINT</notes>
@@ -588,7 +588,7 @@
 
     <!-- TOPS-10 Networking -->
 
-    <tape>
+    <tape id="6cf32dab-45ed-49e2-93db-d3cba94571e8">
         <label>no label</label>
         <name>DECsystem-10 Kermit 3(136) April 2006</name>
         <notes></notes>
@@ -605,7 +605,7 @@
 
     <!-- TOPS-10 Additional Items -->
 
-    <tape>
+    <tape id="6e6ceb7e-fb71-46e2-ad3e-3ee14d77bc9b">
         <label>no label</label>
         <name>Essex BCPL</name>
         <notes>May be corrupted?</notes>
@@ -618,7 +618,7 @@
     </tape>
 
 <!--
-    <tape>
+    <tape id="guid goes here">
         <label></label>
         <name></name>
         <notes></notes>
@@ -644,7 +644,7 @@
             tops-10_games.tap
             walsh_good_stuff.tap
 
-    <tape>
+    <tape id="guid goes here">
         <label></label>
         <name></name>
         <notes></notes>

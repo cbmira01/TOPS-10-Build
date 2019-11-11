@@ -1,33 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<!-- Schema generation thanks to https://www.freeformatter.com/  -->
-
-<xs:schema 
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    attributeFormDefault="unqualified" 
-    elementFormDefault="qualified">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="decusProjects">
-    <xs:annotation>
-      <xs:documentation>Some of this information was gathered from the 
-        DECUS Program Library DECsystem-10/20 Catalog of April 1978:
-        https://ia801902.us.archive.org/4/items/bitsavers_decdecuspratalogPDP10Apr78_4405080/DECUS_Catalog_PDP-10_Apr78.pdf
-
-    Other details were discovered by inspection.</xs:documentation>
-    </xs:annotation>
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="decusProject" maxOccurs="unbounded" minOccurs="0">
-          <xs:annotation>
-            <xs:documentation>DECUS Program Library DECsystem-10/20 Catalog of April 1978 ends at this point...</xs:documentation>
-          </xs:annotation>
+        <xs:element maxOccurs="unbounded" name="decusProject">
           <xs:complexType>
             <xs:sequence>
-              <xs:element type="xs:string" name="decusNumber"/>
-              <xs:element type="xs:string" name="projectProgrammerNumber"/>
-              <xs:element type="xs:string" name="projectName"/>
-              <xs:element type="xs:string" name="description"/>
-              <xs:element type="xs:string" name="decusTapeName"/>
+              <xs:element name="decusNumber" type="xs:string" />
+              <xs:element name="projectProgrammerNumber" type="xs:string" />
+              <xs:element name="projectName" type="xs:string" />
+              <xs:element name="description" type="xs:string" />
+              <xs:element name="decusTapeName" type="xs:string" />
             </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
